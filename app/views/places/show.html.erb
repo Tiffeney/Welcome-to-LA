@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-7">
+        <h1>
+            <h1><%= @place.city %> <%= @place.name %> 
+            <span><%= link_to "Edit", edit_place_path(@place) %> | </span>
+            <span><%= link_to "Delete", place_path(@place), method: :delete, data: { confirm: "Are you sure>"}  %> | </span>
+            <span><%= link_to "Add Location", new_place_path(@place) %></span></h1>
+</div>
+    <div class="col-5" style="text-align: right">
+        <h1>Championships: <%= @place.good_for %></h1>
+    </div>
+</div>
+
+   <table class="table table-striped">
+        <thead class="thead-dark">
+            <th>Name</th>
+            <th>Number</th>
+            <th>Hometown</th>
+            <th>Position</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+    <tbody>
+        <% @team.players.each do |p|%>
+            <tr>
+            <td><%= p.name %></td>
+            <td><%= p.number %></td>
+            <td><%= p.hometown %></td>
+            <td><%= p.position %></td>
+            <td><%= link_to "Edit ", edit_team_player_path(@team, p)%></td>
+            <td><%= link_to "Delete ", team_player_path(@team, p), method: :delete, data: { confirm: "Legit??" }%></td>
+            # <td><img src="#{p.img"}
+            </tr>
+        <% end %>
+    </tbody>
+</table>
