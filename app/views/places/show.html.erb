@@ -6,3 +6,7 @@
     <li><%= @place.good_for %></li>
     <li><%= @place.comment %></li>
 </ul>
+
+
+     <span>   <%= link_to "Edit", edit_place_path%></span> |
+     <span><%= link_to "Delete ", place_path(@place), method: :delete, data: { confirm: "Legit??" }%></span>
