@@ -19,4 +19,66 @@
  li {
     list-style-type: none;
  }
+// font
 
+ h1 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 53px;
+}
+
+
+.form-control {
+    width: 600px;
+}
+
+.navbar-brand {
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.nav-item {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.navbar-text {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+// .form-group {
+//     background-image: url(http://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/LosAngeles_Hero_Killackey_1280x642_sized.jpg);
+// }
+
+.field {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    float: left;
+    margin: 10px;
+}
+
+.actions {
+    font-family: 'Gloria Hallelujah', cursive;
+    padding: 10px;
+}
+
+#alert {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+section {
+    display: flex;
+}
+
+section div {
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+
+    a {
+        padding: 20px; 
+        color: white;
+    }
+}

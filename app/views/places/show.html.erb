@@ -1,14 +1,19 @@
-<h1>CHeck me out</h1>
+<h1>CHeck It Out</h1>
 
-<ul>
+<section>
+<div class="locations">
+
     <li><%= @place.name %></li>
     <li><%= @place.address %></li>
     <li><%= @place.good_for %></li>
     <li><%= @place.comment %></li>
-    <li><%= image_tag(@place.image, width: "250px") %></li>
-   
-</ul>
+<div class="links">
+    <%= link_to "Edit", edit_place_path%> |
+    <%= link_to "Delete ", place_path(@place), method: :delete, data: { confirm: "Are you Sure??" }%>
+</div>
+</div>
+   <div class="pic">
+   <%= image_tag(@place.image, width: "250px") %>
+   </div>
 
-
-     <span><%= link_to "Edit", edit_place_path%></span> |
-     <span><%= link_to "Delete ", place_path(@place), method: :delete, data: { confirm: "Are you Sure??" }%></span>
+</section>
