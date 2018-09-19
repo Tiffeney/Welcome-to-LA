@@ -4,6 +4,7 @@
     <ul>
         <% @places.each do |p| %>
             <li><%= link_to p.name, "/places/#{p.id}" %></li>
+            <li><%= image_tag(place.image, width: "250px") %></li>
         <% end %>
     </ul>
 </div>
