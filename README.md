@@ -12,7 +12,7 @@ HTML
 CSS
 
 ## Screenshot
-(<a href="https://imgur.com/4iojnL2"><img src="https://i.imgur.com/4iojnL2.png" title="source: imgur.com" /></a>)
+<a href="https://imgur.com/4iojnL2"><img src="https://i.imgur.com/4iojnL2.png" title="source: imgur.com" /></a>
 
 ## Next Steps
 Ratings
