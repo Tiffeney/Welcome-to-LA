@@ -25,6 +25,11 @@
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 53px;
+    padding: 17px;
+}
+
+h3 {
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 
@@ -34,11 +39,12 @@
 
 .navbar-brand {
     font-family: 'Gloria Hallelujah', cursive;
-
+    
 }
 
 .nav-item {
     font-family: 'Gloria Hallelujah', cursive;
+    
 }
 
 .navbar-text {
@@ -52,37 +58,73 @@
 .field {
     font-family: 'Gloria Hallelujah', cursive;
     text-align: center;
-    float: left;
+    
     margin: 10px;
 }
 
 .actions {
     font-family: 'Gloria Hallelujah', cursive;
     padding: 10px;
+    text-align: center;
 }
 
 #alert {
     font-family: 'Gloria Hallelujah', cursive;
 }
 
-section {
-    display: flex;
-}
+// section {
+//     display: flex;
+// }
 
-section div {
-    flex: 1;
-}
+// section div {
+//     flex: 1;
+// }
 
-.links {
-    display: flex;
-    justify-content: center;
+// .links {
+//     display: flex;
+//     justify-content: center;
 
-    a {
-        padding: 20px; 
-        color: black;
-    }
-}
+//     a {
+//         padding: 20px; 
+//         color: black;
+//     }
+// }
 
 .locations {
     font-family: 'Arapey', serif;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/photos/wooden-board-empty-table-blur-in-coffee-shop-picture-id519622506?k=6&m=519622506&s=612x612&w=0&h=BX5Xw8lLaFzJ3_DxgWrUlEijumq7FkECEmsnXjXeI2A=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+// https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTddeOBeud92Yeoj2ke_OMOGunStQ0lUdujdksgcZq3suOqAJKz
+
+.card {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    
+    img{
+        object-fit: cover;
+        max-height: 400px;
+        object-position: 50% 20%;
+    }
+
+
+}
+.card-title, .card-test, .card-text {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+form.new_user {
+    width: 35%;
+    margin: 0 auto;
+    .field{
+        display: flex;
+        justify-content: space-between;
+    }
 }
