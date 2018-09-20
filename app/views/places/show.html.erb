@@ -1,19 +1,18 @@
 <h1>CHeck It Out</h1>
 
 <section>
-<div class="locations">
-
-    <li><%= @place.name %></li>
-    <li><%= @place.address %></li>
-    <li><%= @place.good_for %></li>
-    <li><%= @place.comment %></li>
-<div class="links">
-    <%= link_to "Edit", edit_place_path%> |
-    <%= link_to "Delete ", place_path(@place), method: :delete, data: { confirm: "Are you Sure??" }%>
-</div>
-</div>
-   <div class="pic">
-   <%= image_tag(@place.image, width: "250px") %>
-   </div>
-
+    <div class="card" style="width: 18rem;">
+        <%= image_tag(@place.image, width: "250px", class: 'card-img-top') %>
+        <div class="card-body">
+            <h5 class="card-title"><%=@place.name%></h5>
+            <p class="card-text"><%=@place.address%></p>
+            <p class="card-test"><%=@place.good_for%></p>
+            <p2 class="card-test"><%=@place.comment%></p>
+        </div>
+    <div class="locations">
+        <div class="links">
+            <%= link_to "Edit", edit_place_path%> 
+            <%= link_to "Delete ", place_path(@place), method: :delete, data: { confirm: "Are you Sure??" }%>
+        </div>
+    </div>
 </section>
