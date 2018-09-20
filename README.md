@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Welcome to LA! 
+## Objective
+Are you new to LA? visiting? or are you a LA native? Ever Unsure about where to go or just can't remember the name of that one Place? Welcome to LA helps solves that problem. By using this app it eliminates being bombarded with places you'll never remember and provides hidden gems with a suggested food item. 
 
-Things you may want to cover:
+## Technologies Used
+Ruby on Rails
+Ruby
+HTML
+CSS
 
-* Ruby version
+##Screenshot
+![](<a href="https://imgur.com/4iojnL2"><img src="https://i.imgur.com/4iojnL2.png" title="source: imgur.com" /></a>)
 
-* System dependencies
+# Next Steps
+Ratings
+Link to Location + Contact Information
+Multiple Comments
 
-* Configuration
+Check it out!
+[App - link](https://welcometola.herokuapp.com/)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
