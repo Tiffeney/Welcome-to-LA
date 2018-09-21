@@ -14,6 +14,8 @@ CSS </br>
 ## Screenshot
 <a href="https://imgur.com/4iojnL2"><img src="https://i.imgur.com/4iojnL2.png" title="source: imgur.com" /></a>
 
+<a href="https://imgur.com/xIT5i6o"><img src="https://i.imgur.com/xIT5i6o.jpg" title="source: imgur.com" /></a>
+
 ## Next Steps
 Ratings <br/>
 Link to Location <br/>
