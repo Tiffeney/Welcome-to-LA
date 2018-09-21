@@ -25,5 +25,5 @@ Multiple Comments <br/>
 ## Check it out!
 [App - link](https://welcometola.herokuapp.com/)
 
-(https://trello.com/b/XWzr74NT/welcome-to-la)
+https://trello.com/b/XWzr74NT/welcome-to-la
 
