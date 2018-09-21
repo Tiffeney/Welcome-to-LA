@@ -20,6 +20,6 @@ Link to Location <br/>
 Contact Information <br/>
 Multiple Comments <br/>
 
-Check it out!
+## Check it out!
 [App - link](https://welcometola.herokuapp.com/)
 
